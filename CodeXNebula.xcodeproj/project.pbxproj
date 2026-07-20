@@ -1,0 +1,1100 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0010101 /* CodeXNebulaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010001 /* CodeXNebulaApp.swift */; };
+		B0010102 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010002 /* ContentView.swift */; };
+		B0010104 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010004 /* AppRouter.swift */; };
+		B0010105 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010005 /* AppColors.swift */; };
+		B0010106 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010006 /* AppFonts.swift */; };
+		B0010107 /* AppSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010007 /* AppSpacing.swift */; };
+		B0010108 /* AppShadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010008 /* AppShadows.swift */; };
+		B0010109 /* AppAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010009 /* AppAnimations.swift */; };
+		B0010110 /* AppIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010010 /* AppIcons.swift */; };
+		B0010111 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010011 /* AppState.swift */; };
+		B0010112 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010012 /* AppConstants.swift */; };
+		B0010113 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010013 /* Logger.swift */; };
+		B0010114 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010014 /* PrimaryButton.swift */; };
+		B0010115 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010015 /* SecondaryButton.swift */; };
+		B0010116 /* OutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010016 /* OutlineButton.swift */; };
+		B0010117 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010017 /* IconButton.swift */; };
+		B0010118 /* DangerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010018 /* DangerButton.swift */; };
+		B0010119 /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010019 /* GlassCard.swift */; };
+		B0010120 /* XPCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010020 /* XPCard.swift */; };
+		B0010121 /* MissionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010021 /* MissionCard.swift */; };
+		B0010122 /* ProblemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010022 /* ProblemCard.swift */; };
+		B0010123 /* ProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010023 /* ProfileCard.swift */; };
+		B0010124 /* LeaderboardCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010024 /* LeaderboardCard.swift */; };
+		B0010125 /* StatsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010025 /* StatsCard.swift */; };
+		B0010126 /* XPProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010026 /* XPProgressBar.swift */; };
+		B0010127 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010027 /* CircularProgressView.swift */; };
+		B0010128 /* LevelProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010028 /* LevelProgressView.swift */; };
+		B0010129 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010029 /* ViewExtensions.swift */; };
+		B0010130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0010030 /* Assets.xcassets */; };
+		B0010131 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010032 /* SplashView.swift */; };
+		B0010132 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010033 /* User.swift */; };
+		B0010133 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010034 /* AuthenticationService.swift */; };
+		B0010134 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010035 /* AuthenticationViewModel.swift */; };
+		B0010135 /* AuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010036 /* AuthTextField.swift */; };
+		B0010136 /* SocialLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010037 /* SocialLoginButton.swift */; };
+		B0010137 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010038 /* LoginView.swift */; };
+		B0010138 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010039 /* SignUpView.swift */; };
+		B0010139 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010040 /* ForgotPasswordView.swift */; };
+		B0010140 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010041 /* HomeView.swift */; };
+		B0010141 /* UserProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010042 /* UserProgress.swift */; };
+		B0010142 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010043 /* HomeViewModel.swift */; };
+		B0010143 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010044 /* MainTabView.swift */; };
+		B0010144 /* LanguageProgressCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010045 /* LanguageProgressCard.swift */; };
+		B0010145 /* ActionGridCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010046 /* ActionGridCard.swift */; };
+		B0010146 /* UserStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010047 /* UserStorageService.swift */; };
+		C0010101 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0010001 /* Language.swift */; };
+		C0010102 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0010002 /* Chapter.swift */; };
+		C0010103 /* CodingProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0010003 /* CodingProblem.swift */; };
+		C0010104 /* LearningDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0010004 /* LearningDataService.swift */; };
+		C0010105 /* LearningViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0010005 /* LearningViewModel.swift */; };
+		C0010106 /* LanguageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0010006 /* LanguageSelectionView.swift */; };
+		C0010107 /* ChapterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0010007 /* ChapterListView.swift */; };
+		C0010108 /* ProblemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0010008 /* ProblemListView.swift */; };
+		D0010101 /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0010001 /* TestCase.swift */; };
+		D0010102 /* ExecutionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0010002 /* ExecutionResult.swift */; };
+		D0010103 /* CodeSubmission.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0010003 /* CodeSubmission.swift */; };
+		D0010104 /* CodeExecutionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0010004 /* CodeExecutionService.swift */; };
+		D0010105 /* CodingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0010005 /* CodingViewModel.swift */; };
+		D0010109 /* ProblemDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0010009 /* ProblemDataService.swift */; };
+		D0010106 /* ProblemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0010006 /* ProblemDetailView.swift */; };
+		D0010107 /* CodeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0010007 /* CodeEditorView.swift */; };
+		D0010108 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0010008 /* ResultView.swift */; };
+		E0010101 /* AIMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0010001 /* AIMessage.swift */; };
+		E0010102 /* HintResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0010002 /* HintResult.swift */; };
+		E0010103 /* CodeAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0010003 /* CodeAnalysis.swift */; };
+		E0010104 /* NeoAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0010004 /* NeoAIService.swift */; };
+		E0010105 /* NeoAIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0010005 /* NeoAIViewModel.swift */; };
+		E0010106 /* HintPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0010006 /* HintPopupView.swift */; };
+		E0010107 /* NeoChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0010007 /* NeoChatView.swift */; };
+		F0010101 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0010001 /* Friend.swift */; };
+		F0010102 /* BattlePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0010002 /* BattlePlayer.swift */; };
+		F0010103 /* Battle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0010003 /* Battle.swift */; };
+		F0010104 /* BattleInvitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0010004 /* BattleInvitation.swift */; };
+		F0010105 /* BattleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0010005 /* BattleService.swift */; };
+		F0010106 /* BattleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0010006 /* BattleViewModel.swift */; };
+		F0010107 /* BattleHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0010007 /* BattleHomeView.swift */; };
+		F0010108 /* BattleLobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0010008 /* BattleLobbyView.swift */; };
+		F0010109 /* FriendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0010009 /* FriendListView.swift */; };
+		F0010110 /* InviteFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0010010 /* InviteFriendView.swift */; };
+		F0010111 /* WaitingRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0010011 /* WaitingRoomView.swift */; };
+		G0010101 /* BattleProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = G0010001 /* BattleProblem.swift */; };
+		G0010102 /* BattleSubmission.swift in Sources */ = {isa = PBXBuildFile; fileRef = G0010002 /* BattleSubmission.swift */; };
+		G0010103 /* BattleTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = G0010003 /* BattleTimer.swift */; };
+		G0010104 /* BattleResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = G0010004 /* BattleResult.swift */; };
+		G0010105 /* BattleEngineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = G0010005 /* BattleEngineService.swift */; };
+		G0010106 /* BattleArenaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = G0010006 /* BattleArenaViewModel.swift */; };
+		G0010107 /* BattleArenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G0010007 /* BattleArenaView.swift */; };
+		G0010108 /* BattleProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G0010008 /* BattleProblemView.swift */; };
+		G0010109 /* BattleEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G0010009 /* BattleEditorView.swift */; };
+		G0010110 /* BattleResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G0010010 /* BattleResultView.swift */; };
+		G0010111 /* BattleTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G0010011 /* BattleTimerView.swift */; };
+		H0010101 /* CodeMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = H0010001 /* CodeMetrics.swift */; };
+		H0010102 /* PlayerScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = H0010002 /* PlayerScore.swift */; };
+		H0010103 /* WinnerDecision.swift in Sources */ = {isa = PBXBuildFile; fileRef = H0010003 /* WinnerDecision.swift */; };
+		H0010104 /* BattleEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = H0010004 /* BattleEvaluation.swift */; };
+		H0010105 /* AIJudgeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = H0010005 /* AIJudgeService.swift */; };
+		H0010106 /* AIJudgeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = H0010006 /* AIJudgeViewModel.swift */; };
+		H0010107 /* AIJudgeResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = H0010007 /* AIJudgeResultView.swift */; };
+		H0010108 /* PerformanceAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = H0010008 /* PerformanceAnalysisView.swift */; };
+		H0010109 /* CodeComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = H0010009 /* CodeComparisonView.swift */; };
+		I0010101 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = I0010001 /* Badge.swift */; };
+		I0010102 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = I0010002 /* Achievement.swift */; };
+		I0010103 /* XPHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = I0010003 /* XPHistory.swift */; };
+		I0010104 /* LeaderboardPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = I0010004 /* LeaderboardPlayer.swift */; };
+		I0010105 /* DailyStreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = I0010005 /* DailyStreak.swift */; };
+		I0010106 /* LevelSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = I0010006 /* LevelSystem.swift */; };
+		I0010107 /* LeaderboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = I0010007 /* LeaderboardService.swift */; };
+		I0010108 /* AchievementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = I0010008 /* AchievementService.swift */; };
+		I0010109 /* LeaderboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = I0010009 /* LeaderboardViewModel.swift */; };
+		I0010110 /* AchievementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = I0010010 /* AchievementViewModel.swift */; };
+		I0010111 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = I0010011 /* LeaderboardView.swift */; };
+		I0010113 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = I0010013 /* AchievementsView.swift */; };
+		I0010114 /* AchievementDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = I0010014 /* AchievementDetailView.swift */; };
+		I0010115 /* XPProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = I0010015 /* XPProgressView.swift */; };
+		I0010116 /* DailyStreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = I0010016 /* DailyStreakView.swift */; };
+		I0010117 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = I0010017 /* ProfileView.swift */; };
+		J0010101 /* FirebaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = J0010001 /* FirebaseConfiguration.swift */; };
+		J0010102 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = J0010002 /* NetworkMonitor.swift */; };
+		J0010103 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = J0010003 /* FirebaseService.swift */; };
+		J0010104 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = J0010004 /* FirestoreService.swift */; };
+		J0010105 /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = J0010005 /* SyncService.swift */; };
+		J0010106 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = J0010006 /* UserRepository.swift */; };
+		J0010107 /* ProblemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = J0010007 /* ProblemRepository.swift */; };
+		J0010108 /* BattleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = J0010008 /* BattleRepository.swift */; };
+		J0010109 /* LeaderboardRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = J0010009 /* LeaderboardRepository.swift */; };
+		K0010101 /* BattleSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = K0010001 /* BattleSession.swift */; };
+		K0010102 /* FriendRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = K0010002 /* FriendRequest.swift */; };
+		K0010103 /* UserPresence.swift in Sources */ = {isa = PBXBuildFile; fileRef = K0010003 /* UserPresence.swift */; };
+		K0010104 /* RealtimeBattleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = K0010004 /* RealtimeBattleService.swift */; };
+		K0010105 /* FriendService.swift in Sources */ = {isa = PBXBuildFile; fileRef = K0010005 /* FriendService.swift */; };
+		K0010106 /* PresenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = K0010006 /* PresenceService.swift */; };
+		K0010107 /* BattleSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = K0010007 /* BattleSessionManager.swift */; };
+		K0010108 /* FriendRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = K0010008 /* FriendRepository.swift */; };
+		L0010101 /* GeminiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = L0010001 /* GeminiService.swift */; };
+		L0010102 /* NeoAIEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = L0010002 /* NeoAIEngine.swift */; };
+		L0010103 /* PromptBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = L0010003 /* PromptBuilder.swift */; };
+		L0010104 /* AIResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = L0010004 /* AIResponseParser.swift */; };
+		L0010105 /* ConversationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = L0010005 /* ConversationManager.swift */; };
+		L0010106 /* RateLimiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = L0010006 /* RateLimiter.swift */; };
+		L0010107 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = L0010007 /* TokenManager.swift */; };
+		M0010101 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = M0010001 /* HapticManager.swift */; };
+		M0010102 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = M0010002 /* EmptyStateView.swift */; };
+		M0010103 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = M0010003 /* LoadingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0010001 /* CodeXNebulaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodeXNebulaApp.swift; path = CodeXNebula/CodeXNebulaApp.swift; sourceTree = "<group>"; };
+		B0010002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = CodeXNebula/Frontend/Views/ContentView.swift; sourceTree = "<group>"; };
+		B0010004 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppRouter.swift; path = CodeXNebula/Frontend/Navigation/AppRouter.swift; sourceTree = "<group>"; };
+		B0010005 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppColors.swift; path = CodeXNebula/Frontend/Theme/AppColors.swift; sourceTree = "<group>"; };
+		B0010006 /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppFonts.swift; path = CodeXNebula/Frontend/Theme/AppFonts.swift; sourceTree = "<group>"; };
+		B0010007 /* AppSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppSpacing.swift; path = CodeXNebula/Frontend/Theme/AppSpacing.swift; sourceTree = "<group>"; };
+		B0010008 /* AppShadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppShadows.swift; path = CodeXNebula/Frontend/Theme/AppShadows.swift; sourceTree = "<group>"; };
+		B0010009 /* AppAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppAnimations.swift; path = CodeXNebula/Frontend/Theme/AppAnimations.swift; sourceTree = "<group>"; };
+		B0010010 /* AppIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppIcons.swift; path = CodeXNebula/Frontend/Theme/AppIcons.swift; sourceTree = "<group>"; };
+		B0010011 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppState.swift; path = CodeXNebula/Backend/Managers/AppState.swift; sourceTree = "<group>"; };
+		B0010012 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppConstants.swift; path = CodeXNebula/Backend/Utilities/AppConstants.swift; sourceTree = "<group>"; };
+		B0010013 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = CodeXNebula/Backend/Utilities/Logger.swift; sourceTree = "<group>"; };
+		B0010014 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PrimaryButton.swift; path = CodeXNebula/Frontend/Components/Buttons/PrimaryButton.swift; sourceTree = "<group>"; };
+		B0010015 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondaryButton.swift; path = CodeXNebula/Frontend/Components/Buttons/SecondaryButton.swift; sourceTree = "<group>"; };
+		B0010016 /* OutlineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OutlineButton.swift; path = CodeXNebula/Frontend/Components/Buttons/OutlineButton.swift; sourceTree = "<group>"; };
+		B0010017 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IconButton.swift; path = CodeXNebula/Frontend/Components/Buttons/IconButton.swift; sourceTree = "<group>"; };
+		B0010018 /* DangerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DangerButton.swift; path = CodeXNebula/Frontend/Components/Buttons/DangerButton.swift; sourceTree = "<group>"; };
+		B0010019 /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GlassCard.swift; path = CodeXNebula/Frontend/Components/Cards/GlassCard.swift; sourceTree = "<group>"; };
+		B0010020 /* XPCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XPCard.swift; path = CodeXNebula/Frontend/Components/Cards/XPCard.swift; sourceTree = "<group>"; };
+		B0010021 /* MissionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MissionCard.swift; path = CodeXNebula/Frontend/Components/Cards/MissionCard.swift; sourceTree = "<group>"; };
+		B0010022 /* ProblemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProblemCard.swift; path = CodeXNebula/Frontend/Components/Cards/ProblemCard.swift; sourceTree = "<group>"; };
+		B0010023 /* ProfileCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileCard.swift; path = CodeXNebula/Frontend/Components/Cards/ProfileCard.swift; sourceTree = "<group>"; };
+		B0010024 /* LeaderboardCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeaderboardCard.swift; path = CodeXNebula/Frontend/Components/Cards/LeaderboardCard.swift; sourceTree = "<group>"; };
+		B0010025 /* StatsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatsCard.swift; path = CodeXNebula/Frontend/Components/Cards/StatsCard.swift; sourceTree = "<group>"; };
+		B0010026 /* XPProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XPProgressBar.swift; path = CodeXNebula/Frontend/Components/Progress/XPProgressBar.swift; sourceTree = "<group>"; };
+		B0010027 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircularProgressView.swift; path = CodeXNebula/Frontend/Components/Progress/CircularProgressView.swift; sourceTree = "<group>"; };
+		B0010028 /* LevelProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LevelProgressView.swift; path = CodeXNebula/Frontend/Components/Progress/LevelProgressView.swift; sourceTree = "<group>"; };
+		B0010029 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewExtensions.swift; path = CodeXNebula/Frontend/Utilities/ViewExtensions.swift; sourceTree = "<group>"; };
+		B0010030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = CodeXNebula/Frontend/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		B0010031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = CodeXNebula/Info.plist; sourceTree = "<group>"; };
+		B0010032 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SplashView.swift; path = CodeXNebula/Frontend/Views/Splash/SplashView.swift; sourceTree = "<group>"; };
+		B0010033 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = CodeXNebula/Backend/Models/User.swift; sourceTree = "<group>"; };
+		B0010034 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthenticationService.swift; path = CodeXNebula/Backend/Services/AuthenticationService.swift; sourceTree = "<group>"; };
+		B0010035 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthenticationViewModel.swift; path = CodeXNebula/Backend/ViewModels/AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		B0010036 /* AuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthTextField.swift; path = CodeXNebula/Frontend/Views/Authentication/Components/AuthTextField.swift; sourceTree = "<group>"; };
+		B0010037 /* SocialLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SocialLoginButton.swift; path = CodeXNebula/Frontend/Views/Authentication/Components/SocialLoginButton.swift; sourceTree = "<group>"; };
+		B0010038 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = CodeXNebula/Frontend/Views/Authentication/LoginView.swift; sourceTree = "<group>"; };
+		B0010039 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpView.swift; path = CodeXNebula/Frontend/Views/Authentication/SignUpView.swift; sourceTree = "<group>"; };
+		B0010040 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ForgotPasswordView.swift; path = CodeXNebula/Frontend/Views/Authentication/ForgotPasswordView.swift; sourceTree = "<group>"; };
+		B0010041 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = CodeXNebula/Frontend/Views/Home/HomeView.swift; sourceTree = "<group>"; };
+		B0010042 /* UserProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserProgress.swift; path = CodeXNebula/Backend/Models/UserProgress.swift; sourceTree = "<group>"; };
+		B0010043 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewModel.swift; path = CodeXNebula/Backend/ViewModels/HomeViewModel.swift; sourceTree = "<group>"; };
+		B0010044 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTabView.swift; path = CodeXNebula/Frontend/Views/MainTab/MainTabView.swift; sourceTree = "<group>"; };
+		B0010045 /* LanguageProgressCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LanguageProgressCard.swift; path = CodeXNebula/Frontend/Views/Home/Components/LanguageProgressCard.swift; sourceTree = "<group>"; };
+		B0010046 /* ActionGridCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActionGridCard.swift; path = CodeXNebula/Frontend/Views/Home/Components/ActionGridCard.swift; sourceTree = "<group>"; };
+		B0010047 /* UserStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserStorageService.swift; path = CodeXNebula/Backend/Services/UserStorageService.swift; sourceTree = "<group>"; };
+		B0010099 /* CodeXNebula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeXNebula.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0010001 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Language.swift; path = CodeXNebula/Backend/Models/Language.swift; sourceTree = "<group>"; };
+		C0010002 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Chapter.swift; path = CodeXNebula/Backend/Models/Chapter.swift; sourceTree = "<group>"; };
+		C0010003 /* CodingProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodingProblem.swift; path = CodeXNebula/Backend/Models/CodingProblem.swift; sourceTree = "<group>"; };
+		C0010004 /* LearningDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LearningDataService.swift; path = CodeXNebula/Backend/Services/LearningDataService.swift; sourceTree = "<group>"; };
+		C0010005 /* LearningViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LearningViewModel.swift; path = CodeXNebula/Backend/ViewModels/LearningViewModel.swift; sourceTree = "<group>"; };
+		C0010006 /* LanguageSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LanguageSelectionView.swift; path = CodeXNebula/Frontend/Views/Learning/LanguageSelectionView.swift; sourceTree = "<group>"; };
+		C0010007 /* ChapterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChapterListView.swift; path = CodeXNebula/Frontend/Views/Learning/ChapterListView.swift; sourceTree = "<group>"; };
+		C0010008 /* ProblemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProblemListView.swift; path = CodeXNebula/Frontend/Views/Learning/ProblemListView.swift; sourceTree = "<group>"; };
+		D0010001 /* TestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestCase.swift; path = CodeXNebula/Backend/Models/TestCase.swift; sourceTree = "<group>"; };
+		D0010002 /* ExecutionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExecutionResult.swift; path = CodeXNebula/Backend/Models/ExecutionResult.swift; sourceTree = "<group>"; };
+		D0010003 /* CodeSubmission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodeSubmission.swift; path = CodeXNebula/Backend/Models/CodeSubmission.swift; sourceTree = "<group>"; };
+		D0010004 /* CodeExecutionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodeExecutionService.swift; path = CodeXNebula/Backend/Services/CodeExecutionService.swift; sourceTree = "<group>"; };
+		D0010005 /* CodingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodingViewModel.swift; path = CodeXNebula/Backend/ViewModels/CodingViewModel.swift; sourceTree = "<group>"; };
+		D0010009 /* ProblemDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProblemDataService.swift; path = CodeXNebula/Backend/Services/ProblemDataService.swift; sourceTree = "<group>"; };
+		D0010006 /* ProblemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProblemDetailView.swift; path = CodeXNebula/Frontend/Views/Coding/ProblemDetailView.swift; sourceTree = "<group>"; };
+		D0010007 /* CodeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodeEditorView.swift; path = CodeXNebula/Frontend/Views/Coding/CodeEditorView.swift; sourceTree = "<group>"; };
+		D0010008 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultView.swift; path = CodeXNebula/Frontend/Views/Coding/ResultView.swift; sourceTree = "<group>"; };
+		E0010001 /* AIMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AIMessage.swift; path = CodeXNebula/Backend/Models/AIMessage.swift; sourceTree = "<group>"; };
+		E0010002 /* HintResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HintResult.swift; path = CodeXNebula/Backend/Models/HintResult.swift; sourceTree = "<group>"; };
+		E0010003 /* CodeAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodeAnalysis.swift; path = CodeXNebula/Backend/Models/CodeAnalysis.swift; sourceTree = "<group>"; };
+		E0010004 /* NeoAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NeoAIService.swift; path = CodeXNebula/Backend/Services/NeoAIService.swift; sourceTree = "<group>"; };
+		E0010005 /* NeoAIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NeoAIViewModel.swift; path = CodeXNebula/Backend/ViewModels/NeoAIViewModel.swift; sourceTree = "<group>"; };
+		E0010006 /* HintPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HintPopupView.swift; path = CodeXNebula/Frontend/Views/AI/HintPopupView.swift; sourceTree = "<group>"; };
+		E0010007 /* NeoChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NeoChatView.swift; path = CodeXNebula/Frontend/Views/AI/NeoChatView.swift; sourceTree = "<group>"; };
+		F0010001 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Friend.swift; path = CodeXNebula/Backend/Models/Friend.swift; sourceTree = "<group>"; };
+		F0010002 /* BattlePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattlePlayer.swift; path = CodeXNebula/Backend/Models/BattlePlayer.swift; sourceTree = "<group>"; };
+		F0010003 /* Battle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Battle.swift; path = CodeXNebula/Backend/Models/Battle.swift; sourceTree = "<group>"; };
+		F0010004 /* BattleInvitation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleInvitation.swift; path = CodeXNebula/Backend/Models/BattleInvitation.swift; sourceTree = "<group>"; };
+		F0010005 /* BattleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleService.swift; path = CodeXNebula/Backend/Services/BattleService.swift; sourceTree = "<group>"; };
+		F0010006 /* BattleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleViewModel.swift; path = CodeXNebula/Backend/ViewModels/BattleViewModel.swift; sourceTree = "<group>"; };
+		F0010007 /* BattleHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleHomeView.swift; path = CodeXNebula/Frontend/Views/Battle/BattleHomeView.swift; sourceTree = "<group>"; };
+		F0010008 /* BattleLobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleLobbyView.swift; path = CodeXNebula/Frontend/Views/Battle/BattleLobbyView.swift; sourceTree = "<group>"; };
+		F0010009 /* FriendListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendListView.swift; path = CodeXNebula/Frontend/Views/Battle/FriendListView.swift; sourceTree = "<group>"; };
+		F0010010 /* InviteFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InviteFriendView.swift; path = CodeXNebula/Frontend/Views/Battle/InviteFriendView.swift; sourceTree = "<group>"; };
+		F0010011 /* WaitingRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WaitingRoomView.swift; path = CodeXNebula/Frontend/Views/Battle/WaitingRoomView.swift; sourceTree = "<group>"; };
+		G0010001 /* BattleProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleProblem.swift; path = CodeXNebula/Backend/Models/BattleProblem.swift; sourceTree = "<group>"; };
+		G0010002 /* BattleSubmission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleSubmission.swift; path = CodeXNebula/Backend/Models/BattleSubmission.swift; sourceTree = "<group>"; };
+		G0010003 /* BattleTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleTimer.swift; path = CodeXNebula/Backend/Models/BattleTimer.swift; sourceTree = "<group>"; };
+		G0010004 /* BattleResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleResult.swift; path = CodeXNebula/Backend/Models/BattleResult.swift; sourceTree = "<group>"; };
+		G0010005 /* BattleEngineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleEngineService.swift; path = CodeXNebula/Backend/Services/BattleEngineService.swift; sourceTree = "<group>"; };
+		G0010006 /* BattleArenaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleArenaViewModel.swift; path = CodeXNebula/Backend/ViewModels/BattleArenaViewModel.swift; sourceTree = "<group>"; };
+		G0010007 /* BattleArenaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleArenaView.swift; path = CodeXNebula/Frontend/Views/Battle/BattleArenaView.swift; sourceTree = "<group>"; };
+		G0010008 /* BattleProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleProblemView.swift; path = CodeXNebula/Frontend/Views/Battle/BattleProblemView.swift; sourceTree = "<group>"; };
+		G0010009 /* BattleEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleEditorView.swift; path = CodeXNebula/Frontend/Views/Battle/BattleEditorView.swift; sourceTree = "<group>"; };
+		G0010010 /* BattleResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleResultView.swift; path = CodeXNebula/Frontend/Views/Battle/BattleResultView.swift; sourceTree = "<group>"; };
+		G0010011 /* BattleTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleTimerView.swift; path = CodeXNebula/Frontend/Views/Battle/BattleTimerView.swift; sourceTree = "<group>"; };
+		H0010001 /* CodeMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodeMetrics.swift; path = CodeXNebula/Backend/Models/CodeMetrics.swift; sourceTree = "<group>"; };
+		H0010002 /* PlayerScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayerScore.swift; path = CodeXNebula/Backend/Models/PlayerScore.swift; sourceTree = "<group>"; };
+		H0010003 /* WinnerDecision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WinnerDecision.swift; path = CodeXNebula/Backend/Models/WinnerDecision.swift; sourceTree = "<group>"; };
+		H0010004 /* BattleEvaluation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleEvaluation.swift; path = CodeXNebula/Backend/Models/BattleEvaluation.swift; sourceTree = "<group>"; };
+		H0010005 /* AIJudgeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AIJudgeService.swift; path = CodeXNebula/Backend/Services/AIJudgeService.swift; sourceTree = "<group>"; };
+		H0010006 /* AIJudgeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AIJudgeViewModel.swift; path = CodeXNebula/Backend/ViewModels/AIJudgeViewModel.swift; sourceTree = "<group>"; };
+		H0010007 /* AIJudgeResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AIJudgeResultView.swift; path = CodeXNebula/Frontend/Views/AIJudge/AIJudgeResultView.swift; sourceTree = "<group>"; };
+		H0010008 /* PerformanceAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PerformanceAnalysisView.swift; path = CodeXNebula/Frontend/Views/AIJudge/PerformanceAnalysisView.swift; sourceTree = "<group>"; };
+		H0010009 /* CodeComparisonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodeComparisonView.swift; path = CodeXNebula/Frontend/Views/AIJudge/CodeComparisonView.swift; sourceTree = "<group>"; };
+		I0010001 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Badge.swift; path = CodeXNebula/Backend/Models/Badge.swift; sourceTree = "<group>"; };
+		I0010002 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Achievement.swift; path = CodeXNebula/Backend/Models/Achievement.swift; sourceTree = "<group>"; };
+		I0010003 /* XPHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XPHistory.swift; path = CodeXNebula/Backend/Models/XPHistory.swift; sourceTree = "<group>"; };
+		I0010004 /* LeaderboardPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeaderboardPlayer.swift; path = CodeXNebula/Backend/Models/LeaderboardPlayer.swift; sourceTree = "<group>"; };
+		I0010005 /* DailyStreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DailyStreak.swift; path = CodeXNebula/Backend/Models/DailyStreak.swift; sourceTree = "<group>"; };
+		I0010006 /* LevelSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LevelSystem.swift; path = CodeXNebula/Backend/Models/LevelSystem.swift; sourceTree = "<group>"; };
+		I0010007 /* LeaderboardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeaderboardService.swift; path = CodeXNebula/Backend/Services/LeaderboardService.swift; sourceTree = "<group>"; };
+		I0010008 /* AchievementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AchievementService.swift; path = CodeXNebula/Backend/Services/AchievementService.swift; sourceTree = "<group>"; };
+		I0010009 /* LeaderboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeaderboardViewModel.swift; path = CodeXNebula/Backend/ViewModels/LeaderboardViewModel.swift; sourceTree = "<group>"; };
+		I0010010 /* AchievementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AchievementViewModel.swift; path = CodeXNebula/Backend/ViewModels/AchievementViewModel.swift; sourceTree = "<group>"; };
+		I0010011 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeaderboardView.swift; path = CodeXNebula/Frontend/Views/Leaderboard/LeaderboardView.swift; sourceTree = "<group>"; };
+		I0010013 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AchievementsView.swift; path = CodeXNebula/Frontend/Views/Leaderboard/AchievementsView.swift; sourceTree = "<group>"; };
+		I0010014 /* AchievementDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AchievementDetailView.swift; path = CodeXNebula/Frontend/Views/Leaderboard/AchievementDetailView.swift; sourceTree = "<group>"; };
+		I0010015 /* XPProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XPProgressView.swift; path = CodeXNebula/Frontend/Views/Leaderboard/XPProgressView.swift; sourceTree = "<group>"; };
+		I0010016 /* DailyStreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DailyStreakView.swift; path = CodeXNebula/Frontend/Views/Leaderboard/DailyStreakView.swift; sourceTree = "<group>"; };
+		I0010017 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = CodeXNebula/Frontend/Views/MainTab/ProfileView.swift; sourceTree = "<group>"; };
+		J0010001 /* FirebaseConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirebaseConfiguration.swift; path = CodeXNebula/Backend/Utilities/FirebaseConfiguration.swift; sourceTree = "<group>"; };
+		J0010002 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkMonitor.swift; path = CodeXNebula/Backend/Services/NetworkMonitor.swift; sourceTree = "<group>"; };
+		J0010003 /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirebaseService.swift; path = CodeXNebula/Backend/Services/FirebaseService.swift; sourceTree = "<group>"; };
+		J0010004 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirestoreService.swift; path = CodeXNebula/Backend/Services/FirestoreService.swift; sourceTree = "<group>"; };
+		J0010005 /* SyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SyncService.swift; path = CodeXNebula/Backend/Services/SyncService.swift; sourceTree = "<group>"; };
+		J0010006 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserRepository.swift; path = CodeXNebula/Backend/Repositories/UserRepository.swift; sourceTree = "<group>"; };
+		J0010007 /* ProblemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProblemRepository.swift; path = CodeXNebula/Backend/Repositories/ProblemRepository.swift; sourceTree = "<group>"; };
+		J0010008 /* BattleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleRepository.swift; path = CodeXNebula/Backend/Repositories/BattleRepository.swift; sourceTree = "<group>"; };
+		J0010009 /* LeaderboardRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeaderboardRepository.swift; path = CodeXNebula/Backend/Repositories/LeaderboardRepository.swift; sourceTree = "<group>"; };
+		K0010001 /* BattleSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleSession.swift; path = CodeXNebula/Backend/Models/BattleSession.swift; sourceTree = "<group>"; };
+		K0010002 /* FriendRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendRequest.swift; path = CodeXNebula/Backend/Models/FriendRequest.swift; sourceTree = "<group>"; };
+		K0010003 /* UserPresence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserPresence.swift; path = CodeXNebula/Backend/Models/UserPresence.swift; sourceTree = "<group>"; };
+		K0010004 /* RealtimeBattleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RealtimeBattleService.swift; path = CodeXNebula/Backend/Services/RealtimeBattleService.swift; sourceTree = "<group>"; };
+		K0010005 /* FriendService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendService.swift; path = CodeXNebula/Backend/Services/FriendService.swift; sourceTree = "<group>"; };
+		K0010006 /* PresenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PresenceService.swift; path = CodeXNebula/Backend/Services/PresenceService.swift; sourceTree = "<group>"; };
+		K0010007 /* BattleSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BattleSessionManager.swift; path = CodeXNebula/Backend/Services/BattleSessionManager.swift; sourceTree = "<group>"; };
+		K0010008 /* FriendRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendRepository.swift; path = CodeXNebula/Backend/Repositories/FriendRepository.swift; sourceTree = "<group>"; };
+		L0010001 /* GeminiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeminiService.swift; path = CodeXNebula/Backend/Services/GeminiService.swift; sourceTree = "<group>"; };
+		L0010002 /* NeoAIEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NeoAIEngine.swift; path = CodeXNebula/Backend/Services/NeoAIEngine.swift; sourceTree = "<group>"; };
+		L0010003 /* PromptBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PromptBuilder.swift; path = CodeXNebula/Backend/Services/PromptBuilder.swift; sourceTree = "<group>"; };
+		L0010004 /* AIResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AIResponseParser.swift; path = CodeXNebula/Backend/Services/AIResponseParser.swift; sourceTree = "<group>"; };
+		L0010005 /* ConversationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConversationManager.swift; path = CodeXNebula/Backend/Services/ConversationManager.swift; sourceTree = "<group>"; };
+		L0010006 /* RateLimiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RateLimiter.swift; path = CodeXNebula/Backend/Services/RateLimiter.swift; sourceTree = "<group>"; };
+		L0010007 /* TokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TokenManager.swift; path = CodeXNebula/Backend/Services/TokenManager.swift; sourceTree = "<group>"; };
+		M0010001 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HapticManager.swift; path = CodeXNebula/Frontend/Utilities/HapticManager.swift; sourceTree = "<group>"; };
+		M0010002 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmptyStateView.swift; path = CodeXNebula/Frontend/Components/Common/EmptyStateView.swift; sourceTree = "<group>"; };
+		M0010003 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = CodeXNebula/Frontend/Components/Common/LoadingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0010060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0010200 = {
+			isa = PBXGroup;
+			children = (
+				B0010031 /* Info.plist */,
+				B0010300 /* Frontend */,
+				B0010400 /* Backend */,
+				B0010500 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0010300 /* Frontend */ = {
+			isa = PBXGroup;
+			children = (
+				B0010310 /* Views */,
+				B0010320 /* Navigation */,
+				B0010330 /* Theme */,
+				B0010340 /* Components */,
+				B0010360 /* Utilities */,
+				B0010370 /* Assets */,
+			);
+			name = Frontend;
+			sourceTree = "<group>";
+		};
+		B0010310 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0010002 /* ContentView.swift */,
+				B0010311 /* Splash */,
+				B0010312 /* Authentication */,
+				B0010314 /* Home */,
+				B0010317 /* MainTab */,
+				C0010318 /* Learning */,
+				D0010319 /* Coding */,
+				E0010320 /* AI */,
+				F0010321 /* Battle */,
+				H0010322 /* AIJudge */,
+				I0010323 /* Leaderboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D0010319 /* Coding */ = {
+			isa = PBXGroup;
+			children = (
+				D0010006 /* ProblemDetailView.swift */,
+				D0010007 /* CodeEditorView.swift */,
+				D0010008 /* ResultView.swift */,
+			);
+			name = Coding;
+			sourceTree = "<group>";
+		};
+		E0010320 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				E0010006 /* HintPopupView.swift */,
+				E0010007 /* NeoChatView.swift */,
+			);
+			name = AI;
+			sourceTree = "<group>";
+		};
+		F0010321 /* Battle */ = {
+			isa = PBXGroup;
+			children = (
+				F0010007 /* BattleHomeView.swift */,
+				F0010008 /* BattleLobbyView.swift */,
+				F0010009 /* FriendListView.swift */,
+				F0010010 /* InviteFriendView.swift */,
+				F0010011 /* WaitingRoomView.swift */,
+				G0010007 /* BattleArenaView.swift */,
+				G0010008 /* BattleProblemView.swift */,
+				G0010009 /* BattleEditorView.swift */,
+				G0010010 /* BattleResultView.swift */,
+				G0010011 /* BattleTimerView.swift */,
+			);
+			name = Battle;
+			sourceTree = "<group>";
+		};
+		H0010322 /* AIJudge */ = {
+			isa = PBXGroup;
+			children = (
+				H0010007 /* AIJudgeResultView.swift */,
+				H0010008 /* PerformanceAnalysisView.swift */,
+				H0010009 /* CodeComparisonView.swift */,
+			);
+			name = AIJudge;
+			sourceTree = "<group>";
+		};
+		I0010323 /* Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				I0010011 /* LeaderboardView.swift */,
+				I0010013 /* AchievementsView.swift */,
+				I0010014 /* AchievementDetailView.swift */,
+				I0010015 /* XPProgressView.swift */,
+				I0010016 /* DailyStreakView.swift */,
+			);
+			name = Leaderboard;
+			sourceTree = "<group>";
+		};
+		B0010311 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				B0010032 /* SplashView.swift */,
+			);
+			name = Splash;
+			sourceTree = "<group>";
+		};
+		B0010312 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				B0010313 /* Components */,
+				B0010038 /* LoginView.swift */,
+				B0010039 /* SignUpView.swift */,
+				B0010040 /* ForgotPasswordView.swift */,
+			);
+			name = Authentication;
+			sourceTree = "<group>";
+		};
+		B0010313 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B0010036 /* AuthTextField.swift */,
+				B0010037 /* SocialLoginButton.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		B0010314 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B0010315 /* Components */,
+				B0010041 /* HomeView.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		B0010315 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B0010045 /* LanguageProgressCard.swift */,
+				B0010046 /* ActionGridCard.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		B0010317 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				B0010044 /* MainTabView.swift */,
+				I0010017 /* ProfileView.swift */,
+			);
+			name = MainTab;
+			sourceTree = "<group>";
+		};
+		B0010320 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				B0010004 /* AppRouter.swift */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		B0010330 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				B0010005 /* AppColors.swift */,
+				B0010006 /* AppFonts.swift */,
+				B0010007 /* AppSpacing.swift */,
+				B0010008 /* AppShadows.swift */,
+				B0010009 /* AppAnimations.swift */,
+				B0010010 /* AppIcons.swift */,
+				B0010001 /* CodeXNebulaApp.swift */,
+			);
+			name = Theme;
+			sourceTree = "<group>";
+		};
+		B0010340 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B0010341 /* Buttons */,
+				B0010342 /* Cards */,
+				M0010344 /* Common */,
+				B0010343 /* Progress */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		B0010341 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				B0010014 /* PrimaryButton.swift */,
+				B0010015 /* SecondaryButton.swift */,
+				B0010016 /* OutlineButton.swift */,
+				B0010017 /* IconButton.swift */,
+				B0010018 /* DangerButton.swift */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		B0010342 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				B0010019 /* GlassCard.swift */,
+				B0010020 /* XPCard.swift */,
+				B0010021 /* MissionCard.swift */,
+				B0010022 /* ProblemCard.swift */,
+				B0010023 /* ProfileCard.swift */,
+				B0010024 /* LeaderboardCard.swift */,
+				B0010025 /* StatsCard.swift */,
+			);
+			name = Cards;
+			sourceTree = "<group>";
+		};
+		B0010343 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				B0010026 /* XPProgressBar.swift */,
+				B0010027 /* CircularProgressView.swift */,
+				B0010028 /* LevelProgressView.swift */,
+			);
+			name = Progress;
+			sourceTree = "<group>";
+		};
+		M0010344 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				M0010002 /* EmptyStateView.swift */,
+				M0010003 /* LoadingView.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		B0010360 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B0010029 /* ViewExtensions.swift */,
+				M0010001 /* HapticManager.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		B0010370 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B0010030 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		B0010400 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				B0010410 /* Managers */,
+				B0010420 /* Models */,
+				B0010430 /* ViewModels */,
+				B0010440 /* Services */,
+				J0010460 /* Repositories */,
+				B0010450 /* Utilities */,
+			);
+			name = Backend;
+			sourceTree = "<group>";
+		};
+		B0010410 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B0010011 /* AppState.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		B0010420 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B0010033 /* User.swift */,
+				B0010042 /* UserProgress.swift */,
+				C0010001 /* Language.swift */,
+				C0010002 /* Chapter.swift */,
+				C0010003 /* CodingProblem.swift */,
+				D0010001 /* TestCase.swift */,
+				D0010002 /* ExecutionResult.swift */,
+				D0010003 /* CodeSubmission.swift */,
+				E0010001 /* AIMessage.swift */,
+				E0010002 /* HintResult.swift */,
+				E0010003 /* CodeAnalysis.swift */,
+				F0010001 /* Friend.swift */,
+				F0010002 /* BattlePlayer.swift */,
+				F0010003 /* Battle.swift */,
+				F0010004 /* BattleInvitation.swift */,
+				G0010001 /* BattleProblem.swift */,
+				G0010002 /* BattleSubmission.swift */,
+				G0010003 /* BattleTimer.swift */,
+				G0010004 /* BattleResult.swift */,
+				H0010001 /* CodeMetrics.swift */,
+				H0010002 /* PlayerScore.swift */,
+				H0010003 /* WinnerDecision.swift */,
+				H0010004 /* BattleEvaluation.swift */,
+				I0010001 /* Badge.swift */,
+				I0010002 /* Achievement.swift */,
+				I0010003 /* XPHistory.swift */,
+				I0010004 /* LeaderboardPlayer.swift */,
+				I0010005 /* DailyStreak.swift */,
+				I0010006 /* LevelSystem.swift */,
+				K0010001 /* BattleSession.swift */,
+				K0010002 /* FriendRequest.swift */,
+				K0010003 /* UserPresence.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B0010430 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B0010035 /* AuthenticationViewModel.swift */,
+				B0010043 /* HomeViewModel.swift */,
+				C0010005 /* LearningViewModel.swift */,
+				D0010005 /* CodingViewModel.swift */,
+				E0010005 /* NeoAIViewModel.swift */,
+				F0010006 /* BattleViewModel.swift */,
+				G0010006 /* BattleArenaViewModel.swift */,
+				H0010006 /* AIJudgeViewModel.swift */,
+				I0010009 /* LeaderboardViewModel.swift */,
+				I0010010 /* AchievementViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		B0010440 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B0010034 /* AuthenticationService.swift */,
+				B0010047 /* UserStorageService.swift */,
+				C0010004 /* LearningDataService.swift */,
+				D0010004 /* CodeExecutionService.swift */,
+				D0010009 /* ProblemDataService.swift */,
+				E0010004 /* NeoAIService.swift */,
+				F0010005 /* BattleService.swift */,
+				G0010005 /* BattleEngineService.swift */,
+				H0010005 /* AIJudgeService.swift */,
+				I0010007 /* LeaderboardService.swift */,
+				I0010008 /* AchievementService.swift */,
+				J0010002 /* NetworkMonitor.swift */,
+				J0010003 /* FirebaseService.swift */,
+				J0010004 /* FirestoreService.swift */,
+				J0010005 /* SyncService.swift */,
+				K0010004 /* RealtimeBattleService.swift */,
+				K0010005 /* FriendService.swift */,
+				K0010006 /* PresenceService.swift */,
+				K0010007 /* BattleSessionManager.swift */,
+				L0010001 /* GeminiService.swift */,
+				L0010002 /* NeoAIEngine.swift */,
+				L0010003 /* PromptBuilder.swift */,
+				L0010004 /* AIResponseParser.swift */,
+				L0010005 /* ConversationManager.swift */,
+				L0010006 /* RateLimiter.swift */,
+				L0010007 /* TokenManager.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		B0010450 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B0010012 /* AppConstants.swift */,
+				J0010001 /* FirebaseConfiguration.swift */,
+				B0010013 /* Logger.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		J0010460 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				J0010006 /* UserRepository.swift */,
+				J0010007 /* ProblemRepository.swift */,
+				J0010008 /* BattleRepository.swift */,
+				J0010009 /* LeaderboardRepository.swift */,
+				K0010008 /* FriendRepository.swift */,
+			);
+			name = Repositories;
+			sourceTree = "<group>";
+		};
+		B0010500 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0010099 /* CodeXNebula.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0010318 /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				C0010006 /* LanguageSelectionView.swift */,
+				C0010007 /* ChapterListView.swift */,
+				C0010008 /* ProblemListView.swift */,
+			);
+			name = Learning;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0010060T /* CodeXNebula */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0010080 /* Build configuration list for PBXNativeTarget "CodeXNebula" */;
+			buildPhases = (
+				B0010061 /* Sources */,
+				B0010060 /* Frameworks */,
+				B0010062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeXNebula;
+			productName = CodeXNebula;
+			productReference = B0010099 /* CodeXNebula.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0010000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					B0010060T = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = B0010070 /* Build configuration list for PBXProject "CodeXNebula" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0010200;
+			productRefGroup = B0010500 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0010060T /* CodeXNebula */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0010062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0010130 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0010061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0010101 /* CodeXNebulaApp.swift in Sources */,
+				B0010102 /* ContentView.swift in Sources */,
+				B0010104 /* AppRouter.swift in Sources */,
+				B0010105 /* AppColors.swift in Sources */,
+				B0010106 /* AppFonts.swift in Sources */,
+				B0010107 /* AppSpacing.swift in Sources */,
+				B0010108 /* AppShadows.swift in Sources */,
+				B0010109 /* AppAnimations.swift in Sources */,
+				B0010110 /* AppIcons.swift in Sources */,
+				B0010111 /* AppState.swift in Sources */,
+				B0010112 /* AppConstants.swift in Sources */,
+				B0010113 /* Logger.swift in Sources */,
+				B0010114 /* PrimaryButton.swift in Sources */,
+				B0010115 /* SecondaryButton.swift in Sources */,
+				B0010116 /* OutlineButton.swift in Sources */,
+				B0010117 /* IconButton.swift in Sources */,
+				B0010118 /* DangerButton.swift in Sources */,
+				B0010119 /* GlassCard.swift in Sources */,
+				B0010120 /* XPCard.swift in Sources */,
+				B0010121 /* MissionCard.swift in Sources */,
+				B0010122 /* ProblemCard.swift in Sources */,
+				B0010123 /* ProfileCard.swift in Sources */,
+				B0010124 /* LeaderboardCard.swift in Sources */,
+				B0010125 /* StatsCard.swift in Sources */,
+				B0010126 /* XPProgressBar.swift in Sources */,
+				B0010127 /* CircularProgressView.swift in Sources */,
+				B0010128 /* LevelProgressView.swift in Sources */,
+				B0010129 /* ViewExtensions.swift in Sources */,
+				B0010131 /* SplashView.swift in Sources */,
+				B0010132 /* User.swift in Sources */,
+				B0010133 /* AuthenticationService.swift in Sources */,
+				B0010146 /* UserStorageService.swift in Sources */,
+				B0010134 /* AuthenticationViewModel.swift in Sources */,
+				B0010135 /* AuthTextField.swift in Sources */,
+				B0010136 /* SocialLoginButton.swift in Sources */,
+				B0010137 /* LoginView.swift in Sources */,
+				B0010138 /* SignUpView.swift in Sources */,
+				B0010139 /* ForgotPasswordView.swift in Sources */,
+				B0010140 /* HomeView.swift in Sources */,
+				B0010141 /* UserProgress.swift in Sources */,
+				B0010142 /* HomeViewModel.swift in Sources */,
+				B0010143 /* MainTabView.swift in Sources */,
+				B0010144 /* LanguageProgressCard.swift in Sources */,
+				B0010145 /* ActionGridCard.swift in Sources */,
+				C0010101 /* Language.swift in Sources */,
+				C0010102 /* Chapter.swift in Sources */,
+				C0010103 /* CodingProblem.swift in Sources */,
+				C0010104 /* LearningDataService.swift in Sources */,
+				C0010105 /* LearningViewModel.swift in Sources */,
+				C0010106 /* LanguageSelectionView.swift in Sources */,
+				C0010107 /* ChapterListView.swift in Sources */,
+				C0010108 /* ProblemListView.swift in Sources */,
+				D0010101 /* TestCase.swift in Sources */,
+				D0010102 /* ExecutionResult.swift in Sources */,
+				D0010103 /* CodeSubmission.swift in Sources */,
+				D0010104 /* CodeExecutionService.swift in Sources */,
+				D0010109 /* ProblemDataService.swift in Sources */,
+				D0010105 /* CodingViewModel.swift in Sources */,
+				D0010106 /* ProblemDetailView.swift in Sources */,
+				D0010107 /* CodeEditorView.swift in Sources */,
+				D0010108 /* ResultView.swift in Sources */,
+				E0010101 /* AIMessage.swift in Sources */,
+				E0010102 /* HintResult.swift in Sources */,
+				E0010103 /* CodeAnalysis.swift in Sources */,
+				E0010104 /* NeoAIService.swift in Sources */,
+				E0010105 /* NeoAIViewModel.swift in Sources */,
+				E0010106 /* HintPopupView.swift in Sources */,
+				E0010107 /* NeoChatView.swift in Sources */,
+				F0010101 /* Friend.swift in Sources */,
+				F0010102 /* BattlePlayer.swift in Sources */,
+				F0010103 /* Battle.swift in Sources */,
+				F0010104 /* BattleInvitation.swift in Sources */,
+				F0010105 /* BattleService.swift in Sources */,
+				F0010106 /* BattleViewModel.swift in Sources */,
+				F0010107 /* BattleHomeView.swift in Sources */,
+				F0010108 /* BattleLobbyView.swift in Sources */,
+				F0010109 /* FriendListView.swift in Sources */,
+				F0010110 /* InviteFriendView.swift in Sources */,
+				F0010111 /* WaitingRoomView.swift in Sources */,
+				G0010101 /* BattleProblem.swift in Sources */,
+				G0010102 /* BattleSubmission.swift in Sources */,
+				G0010103 /* BattleTimer.swift in Sources */,
+				G0010104 /* BattleResult.swift in Sources */,
+				G0010105 /* BattleEngineService.swift in Sources */,
+				G0010106 /* BattleArenaViewModel.swift in Sources */,
+				G0010107 /* BattleArenaView.swift in Sources */,
+				G0010108 /* BattleProblemView.swift in Sources */,
+				G0010109 /* BattleEditorView.swift in Sources */,
+				G0010110 /* BattleResultView.swift in Sources */,
+				G0010111 /* BattleTimerView.swift in Sources */,
+				H0010101 /* CodeMetrics.swift in Sources */,
+				H0010102 /* PlayerScore.swift in Sources */,
+				H0010103 /* WinnerDecision.swift in Sources */,
+				H0010104 /* BattleEvaluation.swift in Sources */,
+				H0010105 /* AIJudgeService.swift in Sources */,
+				H0010106 /* AIJudgeViewModel.swift in Sources */,
+				H0010107 /* AIJudgeResultView.swift in Sources */,
+				H0010108 /* PerformanceAnalysisView.swift in Sources */,
+				H0010109 /* CodeComparisonView.swift in Sources */,
+				I0010101 /* Badge.swift in Sources */,
+				I0010102 /* Achievement.swift in Sources */,
+				I0010103 /* XPHistory.swift in Sources */,
+				I0010104 /* LeaderboardPlayer.swift in Sources */,
+				I0010105 /* DailyStreak.swift in Sources */,
+				I0010106 /* LevelSystem.swift in Sources */,
+				I0010107 /* LeaderboardService.swift in Sources */,
+				I0010108 /* AchievementService.swift in Sources */,
+				I0010109 /* LeaderboardViewModel.swift in Sources */,
+				I0010110 /* AchievementViewModel.swift in Sources */,
+				I0010111 /* LeaderboardView.swift in Sources */,
+				I0010113 /* AchievementsView.swift in Sources */,
+				I0010114 /* AchievementDetailView.swift in Sources */,
+				I0010115 /* XPProgressView.swift in Sources */,
+				I0010116 /* DailyStreakView.swift in Sources */,
+				I0010117 /* ProfileView.swift in Sources */,
+				J0010101 /* FirebaseConfiguration.swift in Sources */,
+				J0010102 /* NetworkMonitor.swift in Sources */,
+				J0010103 /* FirebaseService.swift in Sources */,
+				J0010104 /* FirestoreService.swift in Sources */,
+				J0010105 /* SyncService.swift in Sources */,
+				J0010106 /* UserRepository.swift in Sources */,
+				J0010107 /* ProblemRepository.swift in Sources */,
+				J0010108 /* BattleRepository.swift in Sources */,
+				J0010109 /* LeaderboardRepository.swift in Sources */,
+				K0010101 /* BattleSession.swift in Sources */,
+				K0010102 /* FriendRequest.swift in Sources */,
+				K0010103 /* UserPresence.swift in Sources */,
+				K0010104 /* RealtimeBattleService.swift in Sources */,
+				K0010105 /* FriendService.swift in Sources */,
+				K0010106 /* PresenceService.swift in Sources */,
+				K0010107 /* BattleSessionManager.swift in Sources */,
+				K0010108 /* FriendRepository.swift in Sources */,
+				L0010101 /* GeminiService.swift in Sources */,
+				L0010102 /* NeoAIEngine.swift in Sources */,
+				L0010103 /* PromptBuilder.swift in Sources */,
+				L0010104 /* AIResponseParser.swift in Sources */,
+				L0010105 /* ConversationManager.swift in Sources */,
+				L0010106 /* RateLimiter.swift in Sources */,
+				L0010107 /* TokenManager.swift in Sources */,
+				M0010101 /* HapticManager.swift in Sources */,
+				M0010102 /* EmptyStateView.swift in Sources */,
+				M0010103 /* LoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B0010071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0010072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0010081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CodeXNebula/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codexnebula.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B0010082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CodeXNebula/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codexnebula.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0010070 /* Build configuration list for PBXProject "CodeXNebula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0010071 /* Debug */,
+				B0010072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0010080 /* Build configuration list for PBXNativeTarget "CodeXNebula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0010081 /* Debug */,
+				B0010082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0010000 /* Project object */;
+}
